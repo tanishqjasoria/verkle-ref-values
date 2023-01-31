@@ -1,0 +1,11 @@
+[package]
+name = "verkle-ref-values"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+verkle-trie = { git = "https://github.com/tanishqjasoria/rust-verkle" , branch = "stable"}
+verkle-db = { git = "https://github.com/tanishqjasoria/rust-verkle", features = ["rocks_db"], branch = "stable"}
+verkle-spec = { git = "https://github.com/tanishqjasoria/rust-verkle", branch = "stable"}
